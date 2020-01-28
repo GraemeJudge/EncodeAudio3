@@ -11,6 +11,7 @@ AudioSample sample;
 void setup()
 {
   size(512, 200);
+  surface.setTitle("Encode Audio 3 v1.0.0");
   //prompt for the user to selec a file
   selectInput("Select audio file to encode.", "fileSelected");
 }
